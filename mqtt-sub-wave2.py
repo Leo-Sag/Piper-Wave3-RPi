@@ -10,7 +10,7 @@ RedisHost = "127.0.0.1"
 Topic = "Miho-MQTT"
 
 r = redis.Redis(host=RedisHost, port='6379')
-#r = redis.Redis(host="redis-14787.c82.us-east-1-2.ec2.cloud.redislabs.com", port="14787", password="50T5RWVcwdpQrFXkq26rTxgQwc7Ru1c7")
+#r = redis.Redis(host="redis-14787.c82.us-east-1-2.ec2.cloud.redislabs.com", port="14787", password="xxx")
 
 
 def on_message(client, userdata, message):
